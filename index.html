@@ -1,0 +1,45 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>LiveChat visitor SDK example</title>
+    <meta name="description" content="Example usage of LiveChat visitor SDK">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="chat-container">
+    <div id="chat">
+        <div class="chat-panel">
+            <div class="messages-container"></div>
+        </div>
+        <div class="chat-bottom-panel">
+            <form class="chat-text-form">
+                <input type="text" class="chat-input" placeholder="Введите запрос">
+                <button class="chat-text-submit-button" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script type="text/javascript" src="chat.js"></script>
+</html>

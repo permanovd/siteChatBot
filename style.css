@@ -1,0 +1,19 @@
+.chat-container {
+    width: 200px;
+    height: 300px;
+    border: black 1px solid;
+}
+
+.chat-panel {
+    height: 300px;
+    width: 180px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.scroll {
+    width: 150px;
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
